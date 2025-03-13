@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #070707;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #e0dada;
 }
 
 
@@ -21,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #2e2c2b;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/Neo\ quimica.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -57,7 +57,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -98,21 +98,27 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--preto);
+}
+h3 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--preto);
 }
 
 #galeria {
-    background-color: #FAF4F4;
 
+    background-color: #646161;
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+   
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url(img/logo\ 1\ ref\ .png);
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -140,3 +146,11 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+
+.galeria img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+ 
