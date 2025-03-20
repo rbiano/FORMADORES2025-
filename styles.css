@@ -152,5 +152,23 @@ h3 {
     height: 300px;
     object-fit: cover;
   }
+  #voltar-ao-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #303130;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Adicione essa linha para garantir que o botão fique em cima de outros elementos */
+  }
+  
+  #voltar-ao-topo:hover {
+    background-color: #2a2b2a;
+  }
+
+ 
 
  
