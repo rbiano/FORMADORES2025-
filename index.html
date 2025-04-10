@@ -22,10 +22,14 @@
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
             </ul>    
             <div id="acessibilidade" class="menu-acessibilidade">
+
                 <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">acessibilidade</button>
                 <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
                   <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
                   <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+                  <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> 
+                    <i class="bi bi-shadows"></i>
+                </button>
                 </div>
               </div>
         </nav>
@@ -61,7 +65,7 @@
             </div>
         </section>
 
-        <section id="galeria"> 
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
             <h2 class="text-center pt-5">Galeria</h2> 
             <div class="container p-3 mt-3 fundo-galeria galeria"> 
               <div class="row justify-content-md-center"> 
@@ -117,11 +121,7 @@
         </section>
     </main>
     <footer class="text-center p-3 fst-italic">
-        <p>Acesse nossas redes:</p>
-        <i class="bi bi-whatsapp"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-tiktok"></i>
-        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+        <p class="mt-3">Desenvolvido pelo Professor Rafael Baino.</p>
     </footer>
     <button id="voltar-ao-topo">Voltar ao topo</button>
     <script src="script.js"></script>

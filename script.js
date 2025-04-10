@@ -8,8 +8,12 @@ opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
     let tamanhoAtualFonte = 1;
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
+    const alternaContraste = document.getElementById('alterna-contraste');
     const tamanhoMinimoFonte = 0.5;
-  
+    alternaContraste.addEventListener('click', function(){
+      document.body.classList.toggle('alto-contraste')
+})
+
     aumentaFonteBotao.addEventListener('click', function(){
       tamanhoAtualFonte += 0.1;
       document.body.style.fontSize = `${tamanhoAtualFonte}rem`
